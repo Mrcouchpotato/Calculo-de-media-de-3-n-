@@ -1,0 +1,15 @@
+#Calcular Média
+print("Olá, vamos calcular sua media")
+
+Nota1 = float(input("Digite sua primeira nota:"))
+Nota2 = float(input("Digite sua segunda nota:"))
+Nota3 = float(input("Digite sua terceira nota:"))
+
+Media = (Nota1+Nota2+Nota3)/3
+
+print(Media)
+
+if Media >= 6:
+    print("Você está aprovado, Parabens!!")
+elif Media < 6:
+    print("Você foi reprovado, mais sorte na proxima ;)")
